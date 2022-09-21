@@ -1,0 +1,11 @@
+[2022-09-21 09:10:40] [[31merror[39m] Error: Error test winston
+    at D:\JS\Thuc_hanh\winston_thuchanh\dist\index.js:15:15
+    at Layer.handle [as handle_request] (D:\JS\Thuc_hanh\winston_thuchanh\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\JS\Thuc_hanh\winston_thuchanh\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\JS\Thuc_hanh\winston_thuchanh\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\JS\Thuc_hanh\winston_thuchanh\node_modules\express\lib\router\layer.js:95:5)
+    at D:\JS\Thuc_hanh\winston_thuchanh\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\JS\Thuc_hanh\winston_thuchanh\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\JS\Thuc_hanh\winston_thuchanh\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\JS\Thuc_hanh\winston_thuchanh\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\JS\Thuc_hanh\winston_thuchanh\node_modules\express\lib\router\layer.js:95:5)

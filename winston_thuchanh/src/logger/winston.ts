@@ -1,4 +1,5 @@
 import winston from 'winston';
+import { join } from 'path';
 
 export const logger = winston.createLogger({
     // format của log được kết hợp thông qua format.combine
@@ -23,5 +24,10 @@ export const logger = winston.createLogger({
         // hiển thị log thông qua console
         new winston.transports.Console(),
         // Thiết lập ghi các errors vào file
+        new winston.transports.File({
+            dirname: join(__dirname, '../../../var/log/'),
+            filename: 'error.log',
+            level: 'error',
+        })
     ],
 })
